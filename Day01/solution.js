@@ -11,7 +11,6 @@ while (firstDoubleFrequency == null) {
     frequencies.push(sum)
     number = parseInt(inputArray[i])
     sum = sum + number
-    console.log(number + ' ' + sum + '\n')
     if(frequencies.includes(sum)) {
       firstDoubleFrequency = sum
       break
